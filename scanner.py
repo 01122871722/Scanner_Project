@@ -30,7 +30,7 @@ TOKEN_TYPES = {
     'CHAR_LITERAL': r"'([^'\\]|\\.)'", 
 
     # Special characters
-    'SPECIAL_SYMBOL': r'[{}()[\],;.]',
+    'Special char': r'[{}()[\],;.]',
 
     
 }
