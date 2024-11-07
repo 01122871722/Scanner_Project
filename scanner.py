@@ -5,16 +5,13 @@ TOKEN_TYPES = {
    
 
     # Keywords
-    'KEYWORD': r'\b(break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while)\b',
-
-    # Built-in Functions
-    'BUILTIN_FUNCTION': r'\b(printf|scanf|puts|gets|sprintf|sscanf|fopen|fclose|fread|fwrite|fprintf|fscanf|fseek|ftell|rewind|feof|ferror|clearerr|fputc|fgetc|fgets|fputs|putc|putchar|getchar|malloc|calloc|realloc|free|exit|abort|system|strcpy|strncpy|strcat|strncat|strcmp|strncmp|strlen|strchr|strrchr|strstr|strdup|strtok|memset|memcpy|memcmp|qsort|bsearch|abs|labs|div|ldiv|rand|srand|time|clock|difftime|mktime|asctime|ctime|gmtime|localtime|strftime|isdigit|isalpha|isalnum|islower|isupper|tolower|toupper|acos|asin|atan|atan2|ceil|cos|cosh|exp|fabs|floor|fmod|frexp|ldexp|log|log10|modf|pow|sin|sinh|sqrt|tan|tanh|memmove|setbuf|setvbuf|perror|tmpfile|tmpnam|remove|rename|fopen|freopen|fflush|setbuf|setvbuf|vprintf|vfprintf|vsprintf|vfscanf|vscanf|vsnprintf|vsprintf)\b',
+    'KEYWORD': r'\b(break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|whileprintf|scanf|puts|gets|sprintf|sscanf|fopen|fclose|fread|fwrite|fprintf|fscanf|fseek|ftell|rewind|feof|ferror|clearerr|fputc|fgetc|fgets|fputs|putc|putchar|getchar|malloc|calloc|realloc|free|exit|abort|system|strcpy|strncpy|strcat|strncat|strcmp|strncmp|strlen|strchr|strrchr|strstr|strdup|strtok|memset|memcpy|memcmp|qsort|bsearch|abs|labs|div|ldiv|rand|srand|time|clock|difftime|mktime|asctime|ctime|gmtime|localtime|strftime|isdigit|isalpha|isalnum|islower|isupper|tolower|toupper|acos|asin|atan|atan2|ceil|cos|cosh|exp|fabs|floor|fmod|frexp|ldexp|log|log10|modf|pow|sin|sinh|sqrt|tan|tanh|memmove|setbuf|setvbuf|perror|tmpfile|tmpnam|remove|rename|fopen|freopen|fflush|setbuf|setvbuf|vprintf|vfprintf|vsprintf|vfscanf|vscanf|vsnprintf|vsprintf)\b',
 
     # Identifiers
     'IDENTIFIER': r'\b[a-zA-Z_][a-zA-Z0-9_]*\b',
 
     # Numeric constants
-    'NUMBER': r'\b\d+(\.\d+)?\b',
+    'Numeric': r'\b\d+(\.\d+)?\b',
     # Whitespace
     'WHITESPACE': r'[ \t]+',
 
