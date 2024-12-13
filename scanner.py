@@ -5,8 +5,10 @@ TOKEN_TYPES = {
    
 
     # Keywords
-    'KEYWORD':  r'\b(break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while)\b',
+    'KEYWORD': r'\b(break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while)\b',
+
    
+    # Identifiers
     'IDENTIFIER': r'\b[a-zA-Z_][a-zA-Z0-9_]*\b',
 
     # Numeric constants and variable
@@ -20,7 +22,7 @@ TOKEN_TYPES = {
     'COMMENT': r'//[^\n]*|/\*[\s\S]*?\*/',
 
     # Operators
-    'OPERATOR': r'(\+\+|--|+=| -=| *=| /=| %===|!=|<=|>=|->|&&|\|\||<<|>>|[+\-*/%&|^!~<>=])',
+    'OPERATOR': r'(\+\+|--|\+=|-=|\*=|/=|==|!=|<=|>=|->|&&|\|\||<<|>>|[+\-*/%&|^!~<>=])',
 
     # String literals
     'STRING_LITERAL': r'"([^"\\]*(\\.[^"\\]*)*)"', 
